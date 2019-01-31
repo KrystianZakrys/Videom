@@ -11,4 +11,11 @@
 
 .jumbotron {
     background: blueviolet !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-wrapper {
+    background-color: #2b2b2b !important;
+    color: white !important;
 }
