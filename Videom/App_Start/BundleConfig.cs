@@ -24,7 +24,26 @@ namespace Videom
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/videom/videom-black.css"));
+
+            //AdminLTE
+            bundles.Add(new StyleBundle("~/Content/AdminLteCss").Include(
+                    "~/Content/adminlte/dist/css/skins/_all-skins.min.css",
+                    "~/Content/adminlte/dist/css/AdminLTE.min.css",
+                    "~/Content/adminlte/bower_components/Ionicons/css/ionicons.min.css",
+                    "~/Content/adminlte/bower_components/font-awesome/css/font-awesome.min.css",
+                    "~/Content/adminlte/bower_components/bootstrap/dist/css/bootstrap.min.css"));
+
+
+                 bundles.Add(new ScriptBundle("~/Content/AdminLteJs").Include(
+                    "~/Content/adminlte/bower_components/jquery/dist/jquery.min.js",
+                    "~/Content/adminlte/bower_components/bootstrap/dist/js/bootstrap.min.js",
+                    "~/Content/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js",
+                    "~/Content/adminlte/bower_components/fastclick/lib/fastclick.js",
+                    "~/Content/adminlte/dist/js/adminlte.min.js",
+                    "~/Content/adminlte/dist/js/demo.js"
+                ));
         }
     }
 }

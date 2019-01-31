@@ -1,0 +1,14 @@
+﻿body {
+    background-color: #2b2b2b !important;
+    color: white !important;
+}
+
+.navbar-brand {
+    font-family: Impact, fantasy;
+    font-size: x-large !important;
+    color: yellow !important;
+}
+
+.jumbotron {
+    background: blueviolet !important;
+}
